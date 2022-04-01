@@ -37,7 +37,6 @@ dev_forms.addEventListener("submit", function (e) {
     dev_msg.innerHTML = Alert.success("Data Stable");
     dev_forms.reset();
     let localdata = Storage;
-    let local_data = allDevs;
     localdata.setData("developer", data);
     devs_data();
   }
